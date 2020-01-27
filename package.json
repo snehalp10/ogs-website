@@ -12,8 +12,8 @@
     "@trendmicro/react-sidenav": "0.5.0"
   },
   "scripts": {
-    "start": "cross-env HTTPS=true react-scripts start",
     "build": "react-scripts build",
+    "start": "cross-env HTTPS=true react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
