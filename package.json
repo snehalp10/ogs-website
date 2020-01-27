@@ -13,7 +13,6 @@
     "cross-env": "^7.0.0"
   },
   "scripts": {
-    "install": "install",
     "build": "react-scripts build",
     "start": "cross-env HTTPS=true react-scripts start"
   },
