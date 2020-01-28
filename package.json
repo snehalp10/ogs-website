@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "cross-env HTTPS=true react-scripts start"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
