@@ -8,13 +8,14 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
+    "react-scripts": "3.2.0",
+    "react-dev-utils": "10.0.0",
     "@trendmicro/react-sidenav": "0.5.0",
     "cross-env": "^7.0.0"
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "set HTTPS=true && react-scripts start"
+    "start": "cross-env HTTPS=true react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
